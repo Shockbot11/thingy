@@ -1,4 +1,4 @@
-$url = "https://i.ibb.co/35pvyhq9/deletern.jpg"
+$url = "https://i.ibb.co/1JLwLcQS/deletern.jpg"
 $outputPath = "$env:temp\img.jpg"
 $wallpaperStyle = 2  # 0: Tiled, 1: Centered, 2: Stretched
 
